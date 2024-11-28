@@ -1,8 +1,8 @@
 {
   "name": "react-image-browser",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "React imageBrowser is simple and easy to use pre-built component for react projects. RiB contains slide and grid view, automated slideshow, image-info-options  and fullscreen mode.",
-  "main": "index.js",
+  "main": "imageBrowser.jsx",
   "types": "imageBrowser.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
