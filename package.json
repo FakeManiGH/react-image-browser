@@ -1,0 +1,26 @@
+{
+  "name": "react-image-browser",
+  "version": "1.0.0",
+  "description": "React imageBrowser is simple and easy to use pre-built component for react projects. RiB contains slide and grid view, automated slideshow, image-info-options  and fullscreen mode.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "react-image-browser"
+  },
+  "keywords": [
+    "browser",
+    "image",
+    "lightbox",
+    "slides",
+    "slideshow",
+    "gallery",
+    "automated",
+    "easy",
+    "browser"
+  ],
+  "author": "Timo Anjala",
+  "license": "MIT"
+}
