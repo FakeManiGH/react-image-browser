@@ -1,8 +1,9 @@
 {
   "name": "react-image-browser",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "React imageBrowser is simple and easy to use pre-built component for react projects. RiB contains slide and grid view, automated slideshow, image-info-options  and fullscreen mode.",
   "main": "index.js",
+  "types": "imageBrowser.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +23,8 @@
     "browser"
   ],
   "author": "Timo Anjala",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "react-swipeable": "^6.0.0"
+  }
 }
