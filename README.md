@@ -31,7 +31,7 @@ Clone the repository from GitHub and copy react-image-browser.jsx and imageBrows
 ### Import
 
 ```JSX
-import { ImageBrowser } from ./react-image-browser
+import ImageBrowser from 'react-image-browser'
 ```
 
 ### Add images (object array)
