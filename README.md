@@ -4,6 +4,7 @@
 > More preview images in preview-images folder.
 
 # New
+v.1.2.1: propTypes removed (not needed)
 v.1.2.0: SVG icons for consistency and mediascreen update for small screens.
 
 # What is React imageBrowser?
