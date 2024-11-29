@@ -9,6 +9,7 @@
 
 import { useState, useRef, useEffect, useCallback } from 'react';
 import { useSwipeable } from 'react-swipeable';
+import PropTypes from 'prop-types';
 import './ImageBrowser.css';
 
 const ImageBrowser = ({ images, button, open, actions }) => {
@@ -477,6 +478,20 @@ const ImageBrowser = ({ images, button, open, actions }) => {
         )}
         </>
     );
+};
+
+ImageBrowser.propTypes = {
+    images: PropTypes.arrayOf(PropTypes.shape({
+        url: PropTypes.string.isRequired,
+        title: PropTypes.string,
+        description: PropTypes.string,
+        date: PropTypes.string,
+        location: PropTypes.string,
+        author: PropTypes.string,
+    })),
+    button: PropTypes.string,
+    open: PropTypes.string,
+    actions: PropTypes.bool,
 };
 
 export default ImageBrowser;

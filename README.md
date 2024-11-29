@@ -1,4 +1,4 @@
-# React-Image-Browser
+# React imageBrowser
 
 ![React imageBrowser Preview Image](./preview-images/desktop_slides.jpg)
 > More preview images in preview-images folder.
