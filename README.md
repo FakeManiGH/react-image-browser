@@ -3,6 +3,9 @@
 ![React imageBrowser Preview Image](./preview-images/desktop_slides.jpg)
 > More preview images in preview-images folder.
 
+# New
+v.1.2.0: SVG icons for consistency and mediascreen update for small screens.
+
 # What is React imageBrowser?
 
 React imageBrowser is a simple to use image browser component for React applications. It is designed to be easy to set up and use, while still being customizable and responsive. It can be used to display images in a grid or as a slideshow, with swipe-motion and automated slideshow features.
@@ -86,4 +89,6 @@ const images = [
 > Set to true to display Like, Share, and Comment button on image info. Default is false. You need to create and pass your own functions to these buttons.
 
 ---
-Read more about ImageBrowser from the website.
+Read more about ImageBrowser from the website:
+
+https://fakemanigh.github.io/rib-website/
