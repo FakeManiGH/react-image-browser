@@ -82,21 +82,6 @@
         button {
             border-radius: 0px !important;
         }
-
-        button:hover::after {
-            content: attr(data-hover);
-            position: absolute;
-            top: 105%;
-            left: 50%;
-            transform: translateX(-50%);
-            padding: 5px;
-            font-weight: 400 !important;
-            font-size: .9rem !important;
-            font-family: 'Segoe UI', sans-serif;
-            border-radius: 5px;
-            background-color: #00000099;
-            z-index: 9999;
-        }
     }
 
     h1,h2,h3,h4,h5,h6 {
@@ -197,7 +182,7 @@
         align-items: center;
         justify-content: space-between;
         gap: 10px;
-        padding: 15px;
+        padding: 12px 15px;
         background-color: #000000;
     }
 
@@ -213,7 +198,7 @@
         align-items: center;
         justify-content: center;
         flex-wrap: nowrap;
-        padding: 10px 15px;
+        padding: 15px;
         background-color: #00000050;
         color: #e6e6e6;
         font-size: 1.4rem;
@@ -223,7 +208,15 @@
         cursor: pointer;
         transition: background-color 0.3s, box-shadow 0.3s;
 
-        &:hover, &.active {
+        &:hover {
+            background-color: #4080f5; 
+            
+            @media screen and (max-width: 768px) {
+                background-color: #00000050;   
+            }
+        }
+
+        &.active {
             background-color: #4080f5;
         }
 
@@ -268,6 +261,14 @@
             cursor: pointer;
             z-index: 0;
         }
+
+        @media screen and (max-height: 400px) {
+            height: calc(100% - 65px);
+        }
+
+        @media screen and (max-width: 768px) {
+            height: calc(100% - 75px);
+        }
     }
 
     .prev {
@@ -275,11 +276,12 @@
         top: 50%;
         left: 5px;
         transform: translateY(-50%);
-        padding: 10px;
+        padding: 15px 10px;
         background-color: #00000050;
         color: #e6e6e6;
         font-size: 1.5rem;
         border: none;
+        border-radius: 0px;
         cursor: pointer;
         transition: background-color 0.3s, box-shadow 0.3s;
         z-index: 1;
@@ -295,11 +297,12 @@
         top: 50%;
         right: 5px;
         transform: translateY(-50%);
-        padding: 10px;
+        padding: 15px 10px;
         background-color: #00000050;
         color: #e6e6e6;
         font-size: 1.5rem;
         border: none;
+        border-radius: 0px;
         cursor: pointer;
         transition: background-color 0.3s, box-shadow 0.3s;
         z-index: 1;
@@ -335,6 +338,14 @@
             &:hover, &.active {
                 border: 2px solid #e6e6e6;
             }
+        }
+
+        @media screen and (max-height: 400px) {
+            height: 65px;
+        }
+
+        @media screen and (max-width: 768px) {
+            height: 75px;
         }
     }
 
@@ -440,10 +451,6 @@
         align-items: center;
         gap: 5px;
         padding: 5px;
-
-        button {
-            padding: 5px 15px 8px 15px !important;
-        }
     }
 }
 
